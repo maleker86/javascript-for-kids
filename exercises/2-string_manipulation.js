@@ -43,11 +43,12 @@ if (age >= 13) {
 //38 completed in console- array manual pushing with indexing
 //46 is Math.floor, did in console
 
+//choicemaker from 47
 let randomwords = ["Hi","we","did","princess","boy","baby","girl"];
 let randomindex = Math.floor(Math.random() * randomwords.length);
 let randomword = randomwords[randomindex];
 console.log("word " + randomindex + ": " + randomword);
-//choicemaker from 46ish
+
 let phrases = [
     "Let me think about it.",
     "That's probably not a good idea.",
